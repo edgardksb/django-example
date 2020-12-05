@@ -34,6 +34,7 @@ If you want just run in your local machine, use **run.sh** script
 ```
 sh run.sh
 ```
+This case running in http://localhost:8888
 
 If you deploy in **Heroku**
 ```
