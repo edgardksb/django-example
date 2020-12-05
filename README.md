@@ -27,3 +27,19 @@ Change the settings **DEBUG** and **SECRET_KEY** in settings.py file
 ```
 sh build.sh
 ```
+Now you have the app docker image ready for use ;)
+
+### 4 - Time for choosing where you run your docker image
+If you want just run in your local machine, use **run.sh** script
+```
+sh run.sh
+```
+
+If you deploy in **Heroku**
+```
+heroku login
+heroku container:login
+heroku create
+heroku container:push django-example
+heroku container:release django-example
+```

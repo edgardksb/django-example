@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -it -p 8888:8888 django-example
+docker run -it -p 8888:80 django-example
