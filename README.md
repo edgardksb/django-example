@@ -1,6 +1,6 @@
 # django-sample
 
-For using this example:
+For use this example:
 ```
     $ pip install --upgrade virtualenv
     $ virtualenv env
