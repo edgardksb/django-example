@@ -1,0 +1,4 @@
+phonenumbers 
+django-phonenumber-field 
+djangorestframework
+gunicorn
